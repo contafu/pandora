@@ -21,7 +21,6 @@ import com.android.pandora.compress.Luban
 import com.android.pandora.compress.OnCompressListener
 import com.android.pandora.display.ClayAdapter
 import com.android.pandora.display.ClaysAdapter
-import com.android.pandora.pandora.R
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers

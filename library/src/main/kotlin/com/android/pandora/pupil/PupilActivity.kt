@@ -6,7 +6,7 @@ import android.support.v4.app.Fragment
 import android.support.v4.view.ViewPager
 import android.support.v7.app.AppCompatActivity
 import android.view.WindowManager
-import com.android.pandora.pandora.R
+import com.android.pandora.R
 import kotlinx.android.synthetic.main.lib_pandora_activity_pupil.*
 import java.util.*
 

@@ -13,7 +13,7 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.Toast
 import com.android.pandora.Clay
-import com.android.pandora.pandora.R
+import com.android.pandora.R
 import com.android.pandora.countInLine
 import com.android.pandora.pupil.PupilActivity
 import com.bumptech.glide.Glide
