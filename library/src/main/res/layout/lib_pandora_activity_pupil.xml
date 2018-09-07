@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lib_pandora_111111"
-    tools:context="com.android.pandora.pandora.com.android.hydra.pupil.PupilActivity"
+    tools:context="com.android.pandora.pupil.PupilActivity"
     tools:ignore="RtlHardcoded">
 
     <android.support.v4.view.ViewPager
