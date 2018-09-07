@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.android.pandora.pandora.pupil.PupilView
+    <com.android.pandora.pupil.PupilView
         android:id="@id/lib_pandora_fragment_pupil_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
