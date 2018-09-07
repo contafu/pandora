@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lib_pandora_111111"
+    tools:context="com.android.pandora.pandora.com.android.hydra.pupil.PupilActivity"
+    tools:ignore="RtlHardcoded">
+
+    <android.support.v4.view.ViewPager
+        android:id="@id/lib_pandora_pupil_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@id/lib_pandora_activity_pupil_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/lib_pandora_tool_bar_navigation_button"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:background="@drawable/lib_pandora_activity_pupil_navigation_background"
+            android:scaleType="center"
+            android:src="@mipmap/module_pandora_tool_bar_navigation_icon" />
+
+        <TextView
+            android:id="@id/lib_pandora_tool_bar_title_view"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.pandora">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--<uses-feature-->
+    <!--android:name="android.hardware.Camera"-->
+    <!--android:required="true"/>-->
+    <!--<uses-feature-->
+    <!--android:name="android.hardware.camera.autofocus"-->
+    <!--android:required="false"/>-->
+
+    <application>
+
+        <activity
+            android:name="com.android.pandora.Pandora"
+            android:exported="false"
+            android:theme="@style/lib_pandora_AppTheme" />
+
+        <activity
+            android:name="com.android.pandora.pupil.PupilActivity"
+            android:exported="false"
+            android:theme="@style/lib_pandora_AppTheme" />
+
+        <!--<provider-->
+        <!--android:name="android.support.v4.content.FileProvider"-->
+        <!--android:authorities="com.android.hydra.pandora.FileProvider"-->
+        <!--android:exported="false"-->
+        <!--android:grantUriPermissions="true">-->
+        <!--<meta-data-->
+        <!--android:name="android.support.FILE_PROVIDER_PATHS"-->
+        <!--android:resource="@xml/lib_pandora_file_paths" />-->
+        <!--</provider>-->
+    </application>
+
+</manifest>

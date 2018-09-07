@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="2dp">
+
+    <ImageView
+        android:id="@id/lib_pandora_photo_adapter_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+
+    <CheckedTextView
+        android:id="@id/lib_pandora_photo_adapter_checked_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:filterTouchesWhenObscured="true"
+        android:focusableInTouchMode="true"
+        android:gravity="right|top"/>
+
+</FrameLayout>

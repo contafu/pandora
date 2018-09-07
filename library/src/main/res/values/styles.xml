@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="lib_pandora_AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimaryDark">@color/lib_pandora_colorPrimaryDark</item>
+        <item name="colorPrimary">@color/lib_pandora_colorPrimary</item>
+        <item name="colorAccent">@color/lib_pandora_colorAccent</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+</resources>

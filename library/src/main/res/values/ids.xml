@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="lib_pandora_adapter_album_image_view" type="id" />
+    <item name="lib_pandora_adapter_album_check_box" type="id" />
+    <item name="lib_pandora_adapter_album_name" type="id" />
+    <item name="lib_pandora_adapter_album_count" type="id" />
+    <item name="lib_pandora_photo_adapter_image_view" type="id" />
+    <item name="lib_pandora_photo_adapter_checked_text_view" type="id" />
+    <item name="lib_pandora_fragment_pupil_image_view" type="id" />
+    <item name="lib_pandora_tool_bar_navigation_button" type="id" />
+    <item name="lib_pandora_tool_bar_title_view" type="id" />
+    <item name="lib_pandora_activity_pupil_tool_bar" type="id" />
+    <item name="lib_pandora_pupil_view_pager" type="id" />
+    <item name="lib_pandora_activity_pandora_navigation_icon_view" type="id" />
+    <item name="lib_pandora_activity_pandora_shot_button_view" type="id" />
+    <item name="lib_pandora_activity_pandora_sure_button_view" type="id" />
+    <item name="lib_pandora_activity_pandora_album_button" type="id" />
+    <item name="lib_pandora_activity_pandora_clay_recycler_view" type="id" />
+    <item name="lib_pandora_activity_pandora_clays_recycler_view" type="id" />
+    <item name="lib_pandora_activity_pandora_extra" type="id" />
+    <item name="lib_pandora_activity_progress_bar" type="id" />
+    <item name="lib_pandora_adapter_album_image_view_parent" type="id" />
+</resources>

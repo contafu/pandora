@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lib_pandora_817F7F">#FF817F7F</color>
+    <color name="lib_pandora_80191919">#80191919</color>
+    <color name="lib_pandora_111111">#FF111111</color>
+    <color name="lib_pandora_colorPrimaryDark">#FF303135</color>
+    <color name="lib_pandora_colorPrimary">#FF393A3F</color>
+    <color name="lib_pandora_colorAccent">#FF2CAA2E</color>
+    <color name="lib_pandora_FF24CF27">#FF24CF27</color>
+    <color name="lib_pandora_B44E5456">#B44E5456</color>
+    <color name="lib_pandora_EE000000">#EE000000</color>
+</resources>
