@@ -10,13 +10,12 @@ import android.os.Build
 import android.os.Bundle
 import android.os.Environment
 import android.provider.MediaStore
-import android.support.v4.app.ActivityCompat
-import android.support.v4.content.FileProvider
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.GridLayoutManager
-import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
+import androidx.core.content.FileProvider
+import androidx.recyclerview.widget.GridLayoutManager
 import com.android.pandora.compress.Luban
 import com.android.pandora.compress.OnCompressListener
 import com.android.pandora.display.ClayAdapter
@@ -92,7 +91,7 @@ class Pandora : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.lib_pandora_activity_pandora)
 
-        val max = intent.extras.getInt(MaxCountKey)
+        val max = intent.extras?.getInt(MaxCountKey) ?: 0
 
         with(lib_pandora_activity_pandora_clay_recycler_view) {
             layoutManager = GridLayoutManager(this@Pandora, countInLine)
@@ -112,7 +111,7 @@ class Pandora : AppCompatActivity() {
             }
         }
         with(lib_pandora_activity_pandora_clays_recycler_view) {
-            layoutManager = LinearLayoutManager(this@Pandora)
+            layoutManager = androidx.recyclerview.widget.LinearLayoutManager(this@Pandora)
             claysAdapter = ClaysAdapter(this@Pandora, mutableListOf(), {
                 lib_pandora_activity_pandora_album_button.text = it.name
                 with(it.id) {
@@ -268,7 +267,7 @@ class Pandora : AppCompatActivity() {
                 }
             }
             originalPath = "$parentFile/IMG_$timeTip.jpg"
-            compressedPath = getExternalFilesDir(Environment.DIRECTORY_DCIM).absolutePath
+            compressedPath = getExternalFilesDir(Environment.DIRECTORY_DCIM)?.absolutePath ?: ""
         } else {
             Toast.makeText(this, R.string.lib_pandora_check_external_storage, Toast.LENGTH_SHORT).show()
         }
